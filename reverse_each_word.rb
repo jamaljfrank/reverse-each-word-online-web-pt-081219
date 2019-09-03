@@ -12,4 +12,7 @@ def reverse_each_word(string)
   reverse_array = new_array.collect {|word| word.reverse}
   reverse_array.join(" ")
 end
-  
+  # Code by Jake
+  # def reverse_each_word(sentence)
+  # sentence.split.collect(&:reverse).join(' ')
+# end
